@@ -1,0 +1,375 @@
+body {
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #669bbc;
+}
+
+header {
+    background-color: #003049;
+    width: 98%;
+    top: 0;
+    position: fixed;
+    font-size: 1.5rem;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 1%;
+    border-bottom: 6px solid #669bbc;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    justify-content: space-around;
+    color: #fdf0d5;
+}
+
+img {
+    height: 100px;
+    padding: 10px;
+}
+
+section {
+    min-height: 100vh;
+}
+
+#home {
+    background: linear-gradient(to right, #003049, #669bbc00),
+                        url("Prototyping.png");
+            background-size: cover;
+            background-position: center;
+            color: #fdf0d5;
+    border: 6px solid #fdf0d5;
+            margin: 0 0 0 1%;
+        }
+
+.home-ctnr {
+    width: 50%;
+    height: 100vh;
+    align-items: center;
+    text-align: left;
+    margin: 25vh 12.5vw;
+}
+
+.home-ctnr h1{
+    font-size: 5rem;
+    color: #669bbc;
+    padding: none;
+}
+
+.home-ctnr p{
+    font-size: 1rem;
+    color: #fdf0d5;
+    padding: 0 10px;
+}
+
+button {
+    padding: 20px 60px;
+    background-color: #780000;
+    font-size: 1rem;
+    border-radius: 35px;
+    color: #fdf0d5;
+    margin: 20px 0;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover {
+    background-color: black;
+}
+
+#about {
+    background-color: #669bbc;
+            margin: 0 0 0 1%;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#about h2{
+    font-size: 5rem;
+    color: #003049;
+    text-align: center;
+    padding: 50px 100px 0 100px;
+    font-weight: 100;
+    margin: 50px 0 0 0;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 120%;
+}
+
+.container {
+    height: 350px;
+    width: 25vw;
+    margin: 25px;
+    border: 5px solid #003049;
+    padding: 10px;
+}
+
+.container img{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.container p{
+    color: #003049;
+    font-size: 1.25rem;
+    text-align: center;
+    line-height: 150%;
+}
+
+.about-ctnr {
+    display: flex;
+    justify-content: space-around;
+    width: 95vw;
+}
+ #team {
+    background-color: #fdf0d5;
+    margin: 0 0 0 1%;
+    border: 6px solid #003049;
+    justify-content: space-around;
+ }
+
+ #team h2 {
+    font-size: 5rem;
+    color: #003049;
+    text-align: center;
+    padding: 50px 100px 0 100px;
+    font-weight: 100;
+    margin: 50px 0 0 0;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 120%;
+ }
+
+.team {
+    width: 300px;
+    height: fit-content;
+    margin: 40px;
+}
+
+.team-img{
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #003049;
+}
+
+.team p{
+text-align: center;
+align-items: end;
+color: #003049;
+font-size: 1.5rem;
+}
+
+ #partner {
+    background-color: #669bbc;
+    margin: 0 0 0 1%;
+ }
+
+ #partner h2 {
+    font-size: 5rem;
+    color: #780000;
+    text-align: center;
+    padding: 50px 100px 0 100px;
+    font-weight: 100;
+    margin: 50px 0 0 0;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 120%;
+ }
+
+.partner-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid #780000;
+}
+
+#partner p{
+text-align: center;
+align-items: center;
+color: #780000;
+font-size: 1.5rem;
+width: 300px;
+}
+
+.services-ctnr {
+    height: 300px;
+    width: 700px;
+    margin: 15px 5px 0 25px;
+    background-color: #669bbc;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+#services {
+    background-color: #003049;
+    margin: 0 0 0 1%;
+    color: #fdf0d5;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+#services h3{
+    font-size: 5rem;
+    padding: 20px 150px 0 150px;
+    color: #fdf0d5;
+    margin: 0;
+}
+
+#services h4{
+    font-size: 2rem;
+    text-align: justify;
+    color: black;
+    margin: 0;
+}
+
+#services p{
+    font-size: 1.5rem;
+    text-align: justify;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#services img{
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    padding: 0;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+}
+
+#bookings {
+    background-color: #fdf0d5;
+    color: #fdf0d5;
+    padding: 80px;
+    margin: 0 0 0 1%;
+    border: 6px solid #780000;
+    display: flex;
+}
+
+.process {
+    width: 50vw;
+    justify-content: left;
+}
+
+.process h1{
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    color: #780000;
+}
+
+.process p{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: black;
+}
+
+ul {
+    font-size: 1.5rem;
+    text-align: justify;
+    color: black;
+}
+
+#bookings img {
+    height: 75vh;
+    margin: 40px;
+}
+
+#faq {
+    background-color: #669bbc;
+    margin: 0 0 0 1%;
+    padding: 50px;
+}
+
+#faq h5{
+    font-size: 4rem;
+    color: #780000;
+    margin: 100px 250px;
+}
+
+.show-btn button{
+    background: #669bbc;
+    padding: 0;
+    margin: 0;
+}
+
+.question {
+    font-size: 1.5rem;
+    color: #780000;
+    display: flex;
+    justify-content: space-between;
+    line-height: 150%;
+    background-color: #669bbc;
+    border: 3px solid #003049;
+    margin: 2px;
+    border-radius: 5px;
+    padding: 2px 10px;
+}
+
+.answers {
+    font-size: 1.5rem;
+    color: #003049;
+}
+
+#contact {
+    background-color: #003049;
+    color: #fdf0d5;
+    display: flex;
+    padding: 150px 100px;
+    border: 6px solid #780000;
+    margin: 0 0 0 1%;
+}
+
+.contact{
+    width: 400px;
+    height: 500px;
+    border-radius: 50%;
+    border-color: 10px solid #003049;
+    background-image: url(logo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.info {
+    font-size: 1.5rem;
+    width: 50vw;
+    margin: 0 100px;
+    justify-content: left;
+    text-align: left;
+    color: #669bbc;
+}
+
+.info p{
+    font-size: 1.5rem;
+}
+
+.info h1{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 100;
+}
+
+.info h2{
+    font-size: 1rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #780000;
+    margin: 0 0 0 1%;
+    color: #fdf0d5;
+    line-height: 200%;
+    font-size: 1rem;
+}
