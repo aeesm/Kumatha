@@ -45,7 +45,7 @@ section {
     background-position: center;
     color: #fdf0d5;
     border: 6px solid #fdf0d5;
-    margin: 0 20px 0 20px;
+    margin: 0 10px 0 20px;
 }
 
 .home-ctnr {
@@ -84,7 +84,7 @@ button:hover {
 
 #about {
     background-color: #669bbc;
-    margin: 0 20px 0 20px;
+    margin: 0 10px 0 20px;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -130,7 +130,7 @@ button:hover {
 
 #team {
     background-color: #fdf0d5;
-    margin: 0 20px 0 20px;
+    margin: 0 10px 0 20px;
     border: 6px solid #003049;
 }
 
@@ -171,7 +171,7 @@ button:hover {
 
 #partner {
     background-color: #669bbc;
-    margin: 0 20px 0 20px;
+    margin: 0 10px 0 20px;
 }
 
 #partner h2 {
@@ -216,7 +216,7 @@ button:hover {
 
 #services {
     background-color: #003049;
-    margin: 0 20px 0 20px;
+    margin: 0 10px 0 20px;
     color: #fdf0d5;
     align-items: center;
     justify-content: center;
@@ -262,7 +262,7 @@ button:hover {
     background-color: #fdf0d5;
     color: #fdf0d5;
     padding: 80px;
-    margin: 0 20px 0 20px;
+    margin: 0 10px 0 20px;
     border: 6px solid #780000;
     display: flex;
 }
@@ -300,7 +300,7 @@ ul {
 
 #faq {
     background-color: #669bbc;
-    margin: 0 20px 0 20px;
+    margin: 0 10px 0 20px;
     padding: 50px;
 }
 
@@ -327,7 +327,7 @@ ul {
     display: flex;
     padding: 150px 100px;
     border: 6px solid #780000;
-    margin: 0 20px 0 20px;
+    margin: 0 10px 0 20px;
 }
 
 .contact{
@@ -371,7 +371,7 @@ h6 {
 
 footer {
     background-color: #780000;
-    margin: 0 20px 0 20px;
+    margin: 0 10px 0 20px;
     color: #fdf0d5;
     line-height: 200%;
     font-size: 1rem;
