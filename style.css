@@ -30,7 +30,8 @@ a {
 
 img {
     height: 100px;
-    display: block
+    display: block;
+    margin: 0;
 }
 
 section {
