@@ -16,7 +16,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 0 1%;
+    margin: 0 20px;
     border-bottom: 6px solid #669bbc;
     flex-wrap: wrap;
 }
@@ -44,7 +44,7 @@ section {
     background-position: center;
     color: #fdf0d5;
     border: 6px solid #fdf0d5;
-    margin: 0 0 0 1%;
+    margin: 0 20px 0 20px;
 }
 
 .home-ctnr {
@@ -83,7 +83,7 @@ button:hover {
 
 #about {
     background-color: #669bbc;
-    margin: 0 0 0 1%;
+    margin: 0 20px 0 20px;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -129,7 +129,7 @@ button:hover {
 
 #team {
     background-color: #fdf0d5;
-    margin: 0 0 0 1%;
+    margin: 0 20px 0 20px;
     border: 6px solid #003049;
 }
 
@@ -171,7 +171,7 @@ button:hover {
 
 #partner {
     background-color: #669bbc;
-    margin: 0 0 0 1%;
+    margin: 0 20px 0 20px;
 }
 
 #partner h2 {
@@ -216,7 +216,7 @@ button:hover {
 
 #services {
     background-color: #003049;
-    margin: 0 0 0 1%;
+    margin: 0 20px 0 20px;
     color: #fdf0d5;
     align-items: center;
     justify-content: center;
@@ -261,7 +261,7 @@ button:hover {
     background-color: #fdf0d5;
     padding: 80px;
     border: 6px solid #780000;
-    margin: 0 0 0 1%;
+    margin: 0 20px 0 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -275,7 +275,7 @@ button:hover {
     background-color: #fdf0d5;
     color: #fdf0d5;
     padding: 80px;
-    margin: 0 0 0 1%;
+    margin: 0 20px 0 20px;
     border: 6px solid #780000;
     display: flex;
 }
@@ -313,7 +313,7 @@ ul {
 
 #faq {
     background-color: #669bbc;
-    margin: 0 0 0 1%;
+    margin: 0 20px 0 20px;
     padding: 50px;
 }
 
@@ -340,7 +340,7 @@ ul {
     display: flex;
     padding: 150px 100px;
     border: 6px solid #780000;
-    margin: 0 0 0 1%;
+    margin: 0 20px 0 20px;
 }
 
 .contact{
@@ -384,7 +384,7 @@ h6 {
 
 footer {
     background-color: #780000;
-    margin: 0 0 0 1%;
+    margin: 0 20px 0 20px;
     color: #fdf0d5;
     line-height: 200%;
     font-size: 1rem;
